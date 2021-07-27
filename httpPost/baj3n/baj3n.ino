@@ -39,7 +39,7 @@ void setup() {
 // turn on LCD backlight                      
     lcd.backlight();
 //begin connection
-    WiFi.begin("ZACO", "cypher007@zaco06");
+    WiFi.begin("Penda_hakim", "cypher007@zaco06");
     Serial.println("Waiting for Connection");
    while (WiFi.status() != WL_CONNECTED) {  //Wait for the WiFI connection completion
     delay(500);
