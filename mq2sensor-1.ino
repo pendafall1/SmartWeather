@@ -16,7 +16,7 @@ void setup(){
 
 void loop(){
     lcd.clear()
-    int valeurSensor=analogRead(Gas);
+    int valeurSensor=analogRead(Gaz);
     lcd.setcursor(0,0);
     lcd.print("Valeur :");
     lcd.print(valeurSensor);
