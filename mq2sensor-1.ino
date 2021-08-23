@@ -27,7 +27,7 @@ void loop(){
     }
     else{
         lcd.setcursor(0,1);
-        lcd.print("Aucun de gaz toxique détecté");
+        lcd.print("Aucun gaz toxique détecté");
 }
     delay(200000);
 }
